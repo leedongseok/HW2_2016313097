@@ -4,8 +4,8 @@
 using namespace std;
 
 void count_(int num){
-	int a = 0;
-	while (a<num){
+	int a = 1;
+	while (a<=num){
 		cout << a << endl;
 		++a;
 	}
